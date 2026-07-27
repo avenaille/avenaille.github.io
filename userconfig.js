@@ -33,6 +33,7 @@ const default_configuration = {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      b: ["https://search.brave.com/search?q=", "Brave"],
     },
     default: "d",
   },
