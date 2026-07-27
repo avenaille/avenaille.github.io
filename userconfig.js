@@ -35,7 +35,7 @@ const default_configuration = {
       g: ["https://google.com/search?q=", "Google"],
       b: ["https://search.brave.com/search?q=", "Brave"],
     },
-    default: "d",
+    default: "b",
   },
   keybindings: {
     "s": "search-bar",
