@@ -18,15 +18,9 @@ const default_configuration = {
   },
   clock: {
     format: "h:i p",
-    icon_color: palette.maroon,
+    icon_color: palette.red,
   },
   additionalClocks: [
-    {
-      label: "UA",
-      timezone: "Europe/Kyiv",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
   ],
   search: {
     engines: {
@@ -43,7 +37,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.youtube.com",
+  fastlink: "https://github.com/avenaille/avenaille.github.io",
   openLastVisitedTab: true,
   tabs: [
     {
