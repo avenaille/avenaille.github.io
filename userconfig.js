@@ -3,7 +3,7 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = macchiato;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -17,7 +17,7 @@ const default_configuration = {
     appId: "",
   },
   clock: {
-    format: "k:i p",
+    format: "h:i p",
     icon_color: palette.maroon,
   },
   additionalClocks: [
@@ -30,7 +30,7 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      //p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
       b: ["https://search.brave.com/search?q=", "Brave"],
@@ -77,17 +77,17 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
+              name: "docs",
+              url: "https://docs.google.com",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
+            //{
+              //name: "sheets",
+              //url: "https://docs.google.com/spreadsheets",
+              //icon: "table",
+              //icon_color: palette.red,
+            //},
             {
               name: "drive",
               url: "https://drive.google.com/drive/home",
@@ -134,7 +134,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
+      name: "hihi",
       background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
@@ -167,30 +167,30 @@ const default_configuration = {
           ],
         },
         {
-          name: "challenges",
+          name: "damn",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "trackbear",
+              url: "https://trackbear.app/",
+              icon: "paw",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "ellipsus",
+              url: "https://ellipsus.com/",
+              icon: "typography",
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
+              name: "wordreference",
+              url: "https://www.wordreference.com/",
+              icon: "book-2",
               icon_color: palette.red,
             },
             {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
+              name: "ao3",
+              url: "https://archiveofourown.org/",
+              icon: "brand-ao3",
               icon_color: palette.blue,
             },
           ],
@@ -227,16 +227,16 @@ const default_configuration = {
       ],
     },
     {
-      name: "chi ll",
-      background_url: "src/img/banners/banner_15.gif",
+      name: "chill",
+      background_url: "src/img/banners/banner_18.gif",
       categories: [
         {
           name: "social media",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "tumblr",
+              url: "https://tumblr.com",
+              icon: "brand-tumblr",
               icon_color: palette.green,
             },
             {
@@ -246,10 +246,16 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
+              name: "instagram",
+              url: "https://www.instagram.com",
+              icon: "brand-instagram",
+              icon_color: palette.red,
+            },
+            {
               name: "reddit",
               url: "https://www.reddit.com/r/unixporn",
               icon: "brand-reddit",
-              icon_color: palette.red,
+              icon_color: palette.blue,
             },
           ],
         },
