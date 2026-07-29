@@ -45,19 +45,25 @@ const default_configuration = {
       background_url: "src/img/banners/water-cat-cat.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "music",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "spotify",
+              url: "https://open.spotify.com/",
+              icon: "brand-spotify",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
+              name: "apple",
               url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              icon: "brand-apple",
               icon_color: palette.peach,
+            },
+            {
+              name: "c'est top",
+              url: "https://music.youtube.com/playlist?list=PLDp17kXsNkB4&si=WV7yUfTQ-dOTp2Qn",
+              icon: "brand-youtube",
+              icon_color: palette.red,
             },
           ],
         },
@@ -67,25 +73,19 @@ const default_configuration = {
             {
               name: "gmail",
               url: "https://mail.google.com",
-              icon: "brand-gmail",
+              icon: "file-description",
               icon_color: palette.green,
+            },
+            {
+              name: "drive",
+              url: "https://drive.google.com/drive/home",
+              icon: "brand-google-drive",
+              icon_color: palette.peach,
             },
             {
               name: "docs",
               url: "https://docs.google.com",
               icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            //{
-              //name: "sheets",
-              //url: "https://docs.google.com/spreadsheets",
-              //icon: "table",
-              //icon_color: palette.red,
-            //},
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
               icon_color: palette.blue,
             },
           ],
@@ -176,15 +176,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "wordreference",
-              url: "https://www.wordreference.com/",
-              icon: "book-2",
-              icon_color: palette.red,
-            },
-            {
               name: "ao3",
               url: "https://archiveofourown.org/",
               icon: "brand-ao3",
+              icon_color: palette.red,
+            },
+            {
+              name: "wordreference",
+              url: "https://www.wordreference.com/",
+              icon: "book-2",
               icon_color: palette.blue,
             },
           ],
@@ -221,7 +221,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "chill",
+      name: "chi ll",
       background_url: "src/img/banners/banner_18.gif",
       categories: [
         {
@@ -247,9 +247,15 @@ const default_configuration = {
             },
             {
               name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
+              url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.blue,
+            },
+            {
+              name: "messenger",
+              url: "https://www.messenger.com/",
+              icon: "brand-messenger",
+              icon_color: palette.purple,
             },
           ],
         },
