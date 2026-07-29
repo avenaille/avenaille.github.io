@@ -55,7 +55,7 @@ const default_configuration = {
             },
             {
               name: "apple",
-              url: "https://musicforprogramming.net",
+              url: "https://music.apple.com/fr",
               icon: "brand-apple",
               icon_color: palette.peach,
             },
@@ -255,7 +255,7 @@ const default_configuration = {
               name: "messenger",
               url: "https://www.messenger.com/",
               icon: "brand-messenger",
-              icon_color: palette.purple,
+              icon_color: palette.lavender,
             },
           ],
         },
