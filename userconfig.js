@@ -141,22 +141,16 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "gitlab",
+              url: "https://gitlab.com",
+              icon: "brand-gitlab",
               icon_color: palette.peach,
             },
             {
-              name: "duckdb",
-              url: "https://app.motherduck.com",
-              icon: "file-type-sql",
+              name: "chatGPT",
+              url: "https://https://chatgpt.com",
+              icon: "brand-openAI",
               icon_color: palette.red,
-            },
-            {
-              name: "collab",
-              url: "https://colab.research.google.com",
-              icon: "notebook",
-              icon_color: palette.mauve,
             },
           ],
         },
@@ -190,7 +184,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "resources",
+          name: "oups",
           links: [
             {
               name: "dou",
@@ -255,7 +249,7 @@ const default_configuration = {
               name: "messenger",
               url: "https://www.messenger.com/",
               icon: "brand-messenger",
-              icon_color: palette.lavender,
+              icon_color: palette.mauve,
             },
           ],
         },
@@ -292,9 +286,9 @@ const default_configuration = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "disney+",
+              url: "https://disneyplus.com",
+              icon: "brand-disney",
               icon_color: palette.green,
             },
             {
@@ -304,15 +298,21 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "netflix",
+              url: "https://netflix.com",
+              icon: "brand-netflix",
               icon_color: palette.red,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
+              name: "movies",
+              url: "https://flixeo.tv",
               icon: "star-filled",
+              icon_color: palette.blue,
+            },
+            {
+              name: "Twitch",
+              url: "https://twitch.com",
+              icon: "brand-twitch",
               icon_color: palette.blue,
             },
           ],
