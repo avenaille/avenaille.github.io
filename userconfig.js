@@ -149,7 +149,7 @@ const default_configuration = {
             {
               name: "chatGPT",
               url: "https://https://chatgpt.com",
-              icon: "brand-openAI",
+              icon: "sparkle-2",
               icon_color: palette.red,
             },
           ],
@@ -306,14 +306,14 @@ const default_configuration = {
             {
               name: "movies",
               url: "https://flixeo.tv",
-              icon: "star-filled",
+              icon: "movie",
               icon_color: palette.blue,
             },
             {
               name: "Twitch",
               url: "https://twitch.com",
               icon: "brand-twitch",
-              icon_color: palette.blue,
+              icon_color: palette.mauve,
             },
           ],
         },
