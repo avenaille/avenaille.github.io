@@ -161,7 +161,7 @@ const default_configuration = {
             {
               name: "chatGPT",
               url: "https://https://chatgpt.com",
-              icon: "sparkle-2",
+              icon: "sparkles-2",
               icon_color: palette.red,
             },
           ],
@@ -317,7 +317,7 @@ const default_configuration = {
             },
             {
               name: "movies",
-              url: "https://flixeo.tv",
+              url: "https://flixmomo.app",
               icon: "movie",
               icon_color: palette.blue,
             },
