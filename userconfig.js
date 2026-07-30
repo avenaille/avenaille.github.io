@@ -62,7 +62,19 @@ const default_configuration = {
             {
               name: "c'est top",
               url: "https://music.youtube.com/playlist?list=PLDp17kXsNkB4&si=WV7yUfTQ-dOTp2Qn",
-              icon: "brand-youtube",
+              icon: "player-skip-back",
+              icon_color: palette.red,
+            },
+            {
+              name: "hihi",
+              url: "https://music.youtube.com/playlist?list=PLHPO3DMDYxTM&si=fdFLb1pQdeQt85K1",
+              icon: "player-pause",
+              icon_color: palette.red,
+            },
+            {
+              name: "oubliez les paroles",
+              url: "https://music.youtube.com/playlist?list=PLHPO3DMDYxTM&si=fdFLb1pQdeQt85K1",
+              icon: "player-skip-forward",
               icon_color: palette.red,
             },
           ],
@@ -73,7 +85,7 @@ const default_configuration = {
             {
               name: "gmail",
               url: "https://mail.google.com",
-              icon: "file-description",
+              icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
@@ -85,7 +97,7 @@ const default_configuration = {
             {
               name: "docs",
               url: "https://docs.google.com",
-              icon: "calendar-filled",
+              icon: "file-description",
               icon_color: palette.blue,
             },
           ],
