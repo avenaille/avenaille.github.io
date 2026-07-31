@@ -158,12 +158,6 @@ const default_configuration = {
               icon: "brand-gitlab",
               icon_color: palette.peach,
             },
-            {
-              name: "chatGPT",
-              url: "https://https://chatgpt.com",
-              icon: "sparkles-2",
-              icon_color: palette.red,
-            },
           ],
         },
         {
