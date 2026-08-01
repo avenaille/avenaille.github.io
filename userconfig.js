@@ -89,10 +89,16 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
+              name: "zmail",
+              url: "https://zmail.insa-lyon.fr/",
+              icon: "email-stamp",
+              icon_color: palette.peach,
+            },
+            {
               name: "drive",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
-              icon_color: palette.peach,
+              icon_color: palette.red,
             },
             {
               name: "docs",
@@ -171,7 +177,7 @@ const default_configuration = {
             },
             {
               name: "ellipsus",
-              url: "https://ellipsus.com/",
+              url: "https://write.ellipsus.com/",
               icon: "typography",
               icon_color: palette.peach,
             },
@@ -193,27 +199,21 @@ const default_configuration = {
           name: "oups",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
+              name: "la flemme",
+              url: "https://insa-lyon.jobteaser.com/fr/dashboard",
+              icon: "mood-wrrr",
               icon_color: palette.green,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
+              name: "tjrs plus",
+              url: "https://fr.indeed.com/",
+              icon: "briefcase-2",
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
+              name: "la mort",
+              url: "www.linkedin.com/",
+              icon: "brand-linkedin",
               icon_color: palette.blue,
             },
           ],
