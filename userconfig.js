@@ -73,7 +73,7 @@ const default_configuration = {
             },
             {
               name: "oubliez les paroles",
-              url: "https://music.youtube.com/playlist?list=PLHPO3DMDYxTM&si=fdFLb1pQdeQt85K1",
+              url: "https://www.youtube.com/playlist?list=PLJeZP-CgR-QQ",
               icon: "player-skip-forward",
               icon_color: palette.red,
             },
