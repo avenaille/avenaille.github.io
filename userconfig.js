@@ -147,7 +147,7 @@ const default_configuration = {
     },
     {
       name: "hihi",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/dance-cat.gif",
       categories: [
         {
           name: "development",
