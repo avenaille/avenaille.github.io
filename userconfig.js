@@ -73,7 +73,7 @@ const default_configuration = {
             },
             {
               name: "oubliez les paroles",
-              url: "https://www.youtube.com/playlist?list=PLJeZP-CgR-QQ",
+              url: "https://music.youtube.com/playlist?list=PLJeZP-CgR-QQ",
               icon: "player-skip-forward",
               icon_color: palette.red,
             },
@@ -111,12 +111,6 @@ const default_configuration = {
         {
           name: "media",
           links: [
-            {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
             {
               name: "mil.in.ua",
               url: "https://mil.in.ua",
@@ -263,9 +257,9 @@ const default_configuration = {
           name: "gaming",
           links: [
             {
-              name: "infiniteBacklog",
-              url: "https://infinitebacklog.net",
-              icon: "device-gamepad",
+              name: "asng",
+              url: "https://www.amoursucre-newgen.com/home",
+              icon: "news",
               icon_color: palette.green,
             },
             {
