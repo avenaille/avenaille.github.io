@@ -259,7 +259,7 @@ const default_configuration = {
             {
               name: "asng",
               url: "https://www.amoursucre-newgen.com/home",
-              icon: "news",
+              icon: "heart",
               icon_color: palette.green,
             },
             {
