@@ -1,7 +1,6 @@
 
-// Weather component displays current weather information with temperature and condition icons
+// Weather component, shows the current temperature and a condition icon
 class Weather extends Component {
-  // DOM element selectors for weather display elements
   refs = {
     temperature: ".weather-temperature-value",
     condition: ".weather-condition-icon",
@@ -48,7 +47,6 @@ class Weather extends Component {
    * Set up event handlers for the component
    */
   setEvents() {
-    // Click handler to swap temperature scale
     this.onclick = this.swapScale;
   }
 
@@ -161,16 +159,13 @@ class Weather extends Component {
    * Toggle temperature scale between Celsius and Fahrenheit
    */
   swapScale() {
-    // Toggle between C and F
     this.temperatureScale = this.temperatureScale === "C" ? "F" : "C";
 
-    // Update configuration with new scale
     CONFIG.temperature = {
       ...CONFIG.temperature,
       scale: this.temperatureScale,
     };
 
-    // Update displayed temperature with new scale
     this.setTemperature();
   }
 
@@ -180,7 +175,6 @@ class Weather extends Component {
    * @returns {number} Temperature in selected scale
    */
   convertScale(temperature) {
-    // Convert to Fahrenheit if selected, otherwise return Celsius
     if (this.temperatureScale === "F") return this.toF(temperature);
 
     return temperature;
@@ -202,11 +196,9 @@ class Weather extends Component {
     const { temperature, condition } = this.weather;
     const { icon, color } = this.getForecast(condition);
 
-    // Update DOM elements with weather data
     this.refs.temperature = this.convertScale(temperature);
     this.refs.condition = icon;
     this.refs.scale = this.temperatureScale;
-    // Apply colour class for condition icon
     this.refs.condition.classList.add(color);
   }
 
@@ -226,9 +218,7 @@ class Weather extends Component {
    * Component lifecycle method called when element is connected to DOM
    */
   async connectedCallback() {
-    // Render component template
     await this.render();
-    // Fetch and display weather data
     await this.setWeather();
   }
 }

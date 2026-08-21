@@ -1,6 +1,5 @@
 // User configuration for the startpage - update the palette, location, and your preferred tabs, categories, and links
 
-// Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
 const preferredDarkTheme = mocha;
@@ -12,8 +11,8 @@ const default_configuration = {
   temperature: {
     location: "London",
     scale: "C",
-    // Optional OpenWeatherMap API key — get a free one at https://openweathermap.org/api
-    // Leave empty to keep the placeholder and skip the network request.
+    // Optional OpenWeatherMap API key, get a free one at https://openweathermap.org/api
+    // Leave empty to keep the placeholder and skip the network request
     appId: "",
   },
   clock: {

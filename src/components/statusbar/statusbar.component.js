@@ -1,10 +1,8 @@
 
 // Statusbar component for tab navigation and widgets
 class Statusbar extends Component {
-  // External DOM element references
   externalRefs = {};
 
-  // CSS selector references for DOM elements
   refs = {
     categories: ".categories ul",
     tabs: "#tabs ul li",
@@ -12,7 +10,6 @@ class Statusbar extends Component {
     fastlink: ".fastlink",
   };
 
-  // Currently active tab index
   currentTabIndex = 0;
 
   /**
@@ -284,7 +281,6 @@ class Statusbar extends Component {
 
     if (target.shadow && target.shadow.activeElement) return;
 
-    // Find currently active tab
     let activeTab = -1;
     this.refs.tabs.forEach((tab, index) => {
       if (tab.getAttribute("active") === "") {
@@ -292,7 +288,6 @@ class Statusbar extends Component {
       }
     });
 
-    // Navigate to next or previous tab based on wheel direction
     if (wheelDelta > 0) {
       this.activateByKey((activeTab + 1) % (this.refs.tabs.length - 1));
     } else {
