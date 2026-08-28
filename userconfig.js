@@ -292,15 +292,15 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
+              name: "animelon",
+              url: "https://animelon.com.co/",
+              icon: "torii",
               icon_color: palette.peach,
             },
             {
-              name: "netflix",
-              url: "https://netflix.com",
-              icon: "brand-netflix",
+              name: "youtube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
