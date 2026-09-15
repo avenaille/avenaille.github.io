@@ -91,7 +91,7 @@ const default_configuration = {
             {
               name: "zmail",
               url: "https://zmail.insa-lyon.fr/",
-              icon: "email-stamp",
+              icon: "mail",
               icon_color: palette.peach,
             },
             {
@@ -114,13 +114,13 @@ const default_configuration = {
             {
               name: "jklm",
               url: "https://jklm.fun",
-              icon: "badge-filled",
+              icon: "building-circus",
               icon_color: palette.green,
             },
             {
               name: "skribbl.io",
               url: "https://skribbl.io",
-              icon: "border-radius",
+              icon: "brush",
               icon_color: palette.peach,
             },
             {
