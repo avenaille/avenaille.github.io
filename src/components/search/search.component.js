@@ -130,7 +130,7 @@ class Search extends Component {
     return `
         <div id="search">
           <div>
-            <input type="search" autocomplete="on" spellcheck="false" placeholder="search">
+            <input type="text" spellcheck="false" placeholder="search">
             <button class="close"><i class="material-icons">&#xE5CD;</i></button>
             <ul class="search-engines"></ul>
           </div>
