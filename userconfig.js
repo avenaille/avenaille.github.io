@@ -10,11 +10,11 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "Paris",
+    location: "Lyon",
     scale: "C",
     // Optional OpenWeatherMap API key — get a free one at https://openweathermap.org/api
     // Leave empty to keep the placeholder and skip the network request.
-    appId: "",
+    appId: "$WEATHER_API_KEY",
   },
   clock: {
     format: "h:i p",
