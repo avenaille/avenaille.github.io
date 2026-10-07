@@ -27,6 +27,7 @@ class WeatherForecastClient {
 
     return await fetch(this.url)
       .then((res) => res.json())
+      .then(console.log(data))
       .then((data) => {
         // Round temperature to nearest whole number
         const temperature = Math.round(data.main.temp);
