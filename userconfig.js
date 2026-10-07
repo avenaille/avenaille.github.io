@@ -14,7 +14,7 @@ const default_configuration = {
     scale: "C",
     // Optional OpenWeatherMap API key — get a free one at https://openweathermap.org/api
     // Leave empty to keep the placeholder and skip the network request.
-    appId: "$WEATHER_API_KEY",
+    appId: "2dee6324e5d5facd9d84a5bb4d37db39",
   },
   clock: {
     format: "h:i p",
