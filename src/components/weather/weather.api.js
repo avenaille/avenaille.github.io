@@ -13,7 +13,7 @@ class WeatherForecastClient {
     this.location = location;
     // Construct API URL with location and metric units (only if we have a key)
     this.url = appId
-      ? `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${appId}`
+      ? `https://api.openweathermap.org/data/2.5/weather?lat={45.78266874281452}&lon={4.888873668719998}&units=metric&appid=${appId}`
       : null;
   }
 
