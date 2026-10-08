@@ -17,7 +17,7 @@ const default_configuration = {
     appId: "2dee6324e5d5facd9d84a5bb4d37db39",
   },
   clock: {
-    format: "h:i p",
+    format: "h:i",
     icon_color: palette.red,
   },
   additionalClocks: [
