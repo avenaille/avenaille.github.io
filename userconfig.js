@@ -200,7 +200,7 @@ const default_configuration = {
             },
             {
               name: "la mort",
-              url: "www.linkedin.com/",
+              url: "https://www.linkedin.com/",
               icon: "brand-linkedin",
               icon_color: palette.blue,
             },
