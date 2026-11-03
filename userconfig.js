@@ -129,6 +129,7 @@ const default_configuration = {
               icon: "phone",
               icon_color: palette.red,
             },
+            {
               name: "orapa mine",
               url: "https://theapo.github.io/orapa/",
               icon: "diamond",
